@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-20T16:12:58 IST" name="Surefire suite" finished-at="2022-08-20T16:13:03 IST" duration-ms="5657">
+    <groups>
+    </groups>
+    <test started-at="2022-08-20T16:12:58 IST" name="Surefire test" finished-at="2022-08-20T16:13:03 IST" duration-ms="5657">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.SearchTest@140c9f39]" started-at="2022-08-20T16:12:55 IST" name="initialize" finished-at="2022-08-20T16:12:58 IST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="init()[pri:0, instance:tests.SearchTest@140c9f39]" started-at="2022-08-20T16:12:58 IST" name="init" finished-at="2022-08-20T16:13:03 IST" duration-ms="5624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@140c9f39]" started-at="2022-08-20T16:13:03 IST" name="getResult" finished-at="2022-08-20T16:13:03 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=init status=SUCCESS method=SearchTest.init()[pri:0, instance:tests.SearchTest@140c9f39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="TeardownTest()[pri:0, instance:tests.SearchTest@140c9f39]" started-at="2022-08-20T16:13:03 IST" name="TeardownTest" finished-at="2022-08-20T16:13:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
